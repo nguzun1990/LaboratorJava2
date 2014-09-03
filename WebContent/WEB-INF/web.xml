@@ -14,7 +14,7 @@
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>UpdateUser</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.user.Update</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.user.UpdateServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>UpdateUser</servlet-name>
@@ -22,7 +22,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>GetUser</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.user.Get</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.user.GetServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>GetUser</servlet-name>
@@ -30,7 +30,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>DeleteUser</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.user.Delete</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.user.DeleteServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>DeleteUser</servlet-name>
@@ -38,7 +38,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ExportUser</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.user.Export</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.user.ExportServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ExportUser</servlet-name>
@@ -46,7 +46,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ImportUser</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.user.Import</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.user.ImportServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ImportUser</servlet-name>
@@ -55,7 +55,7 @@
 
 	<servlet>
 		<servlet-name>UpdateGroup</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.group.Update</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.group.UpdateServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>UpdateGroup</servlet-name>
@@ -63,7 +63,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>GetGroup</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.group.Get</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.group.GetServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>GetGroup</servlet-name>
@@ -71,7 +71,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>DeleteGroup</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.group.Delete</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.group.DeleteServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>DeleteGroup</servlet-name>
@@ -79,7 +79,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ExportGroup</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.group.Export</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.group.ExportServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ExportGroup</servlet-name>
@@ -87,7 +87,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ImportGroup</servlet-name>
-		<servlet-class>com.pentalog.nguzun.servlets.group.Import</servlet-class>
+		<servlet-class>com.pentalog.nguzun.servlets.group.ImportServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ImportGroup</servlet-name>

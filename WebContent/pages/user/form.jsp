@@ -22,7 +22,7 @@
 			<label class="form_label">Login</label>
 			<input type="text" name="login" id="login"><br>
 			<label class="form_label">Password</label>
-			<input type="text" name="password" id="password"><br>
+			<input type="password" name="password" id="password"><br>
 			<label class="form_label">Group</label>
 			<select name="group_id" id="group_id">
 				<%for(Group group : groupList) {
