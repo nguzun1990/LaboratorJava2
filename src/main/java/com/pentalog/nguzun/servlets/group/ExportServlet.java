@@ -28,18 +28,18 @@ import com.pentalog.nguzun.vo.Group;
 /**
  * Servlet implementation class export
  */
-public class Export extends HttpServlet {
+public class ExportServlet extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Logger log = Logger.getLogger(Export.class);
+	private Logger log = Logger.getLogger(ExportServlet.class);
 	private static final int BUFSIZE = 4096;
     private String filePath;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Export() {
+    public ExportServlet() {
         super();
     }
     

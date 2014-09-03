@@ -20,16 +20,16 @@ import com.pentalog.nguzun.vo.User;
 /**
  * Servlet implementation class update
  */
-public class Update extends HttpServlet {
+public class UpdateServlet extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Logger log = Logger.getLogger(Update.class);
+	private Logger log = Logger.getLogger(UpdateServlet.class);
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Update() {
+    public UpdateServlet() {
         super();
     }
     

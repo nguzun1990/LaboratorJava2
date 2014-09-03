@@ -19,16 +19,16 @@ import com.pentalog.nguzun.factory.DaoFactory;
 /**
  * Servlet implementation class delete
  */
-public class Delete extends HttpServlet {
+public class DeleteServlet extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Logger log = Logger.getLogger(Delete.class);
+	private Logger log = Logger.getLogger(DeleteServlet.class);
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Delete() {
+    public DeleteServlet() {
         super();
     }
     

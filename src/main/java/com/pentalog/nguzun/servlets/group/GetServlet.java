@@ -21,16 +21,16 @@ import com.pentalog.nguzun.vo.Group;
 /**
  * Servlet implementation class get
  */
-public class Get extends HttpServlet {
+public class GetServlet extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Logger log = Logger.getLogger(Get.class);
+	private Logger log = Logger.getLogger(GetServlet.class);
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Get() {
+    public GetServlet() {
         super();
     }
     

@@ -31,10 +31,10 @@ import com.pentalog.nguzun.vo.Group;
 /**
  * Servlet implementation class import
  */
-public class Import extends HttpServlet {
+public class ImportServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-	private Logger log = Logger.getLogger(Import.class);
+	private Logger log = Logger.getLogger(ImportServlet.class);
 	private boolean isMultipart;
 	private int maxFileSize = 50 * 1024;
 	private int maxMemSize = 4 * 1024;
@@ -43,7 +43,7 @@ public class Import extends HttpServlet {
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public Import() {
+	public ImportServlet() {
 		super();
 	}
 
